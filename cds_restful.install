@@ -1,0 +1,23 @@
+<?php
+
+define("MSG_INSTALLED", t("Module 'CDS Rest' has been installed."));
+define("MSG_UNINSTALLED", t("Module 'CDS Rest' has been uninstalled."));
+
+/**
+ * @file
+ * Install, update and uninstall functions for the CDS RESTful module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function cds_rest_install($is_syncing): void {
+  \Drupal::messenger()->addStatus(MSG_INSTALLED);
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function cds_rest_uninstall($is_syncing): void {
+  \Drupal::messenger()->addStatus(MSG_UNINSTALLED);
+}

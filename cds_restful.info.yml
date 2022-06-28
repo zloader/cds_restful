@@ -1,0 +1,14 @@
+name: CDS RESTful
+description: 'This is the bundle of contrib and custom modules to provide RESTful functionality to site.'
+package: CDS
+type: module
+required: false
+lifecycle: experimental
+core_version_requirement: ^9.3
+version: 1.0.0
+dependencies:
+  - drupal:hal
+  - drupal:jsonapi
+  - drupal:rest
+  - drupal:serialization
+
