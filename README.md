@@ -12,5 +12,6 @@ This is the bundle of contrib and custom modules to provide RESTful functionalit
 ## Contrib Dependencies
 * [drupal/jsonapi_resources](https://www.drupal.org/project/jsonapi_resources),
 * [drupal/restui](https://www.drupal.org/project/restui)
+* [drupal/rest_api_access_token](https://www.drupal.org/project/rest_api_access_token)
 
 ## Custom Dependencies
