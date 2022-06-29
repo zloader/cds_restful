@@ -3,6 +3,19 @@
     "description": "This is the bundle of contrib and custom modules to provide RESTful functionality to site.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Yevhen Moskalov",
+            "email": "zloader@gmail.com",
+            "role": "Maintaner"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
     "require": {
         "drupal/jsonapi_extras": "^3.20.0",
         "drupal/jsonapi_resources": "^1.0@beta",
